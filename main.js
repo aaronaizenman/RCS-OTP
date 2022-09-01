@@ -1,1 +1,5 @@
-import { userpass_submit } from './api/userpass_submit/index.js';
+function userpass_submit() {
+    console.log("submit button pressed true")
+
+    return true
+}
