@@ -1,4 +1,4 @@
-module.exports = async function userpass_submit(context, req) {
+export async function userpass_submit(context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
     const name = (req.query.name || (req.body && req.body.name));
