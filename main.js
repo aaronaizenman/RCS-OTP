@@ -9,7 +9,7 @@ function userpass_submit(user, pass) {
     btn.onclick = function () {
         console.log("2FA generation button has been clicked")
     }
-    document.body.appendChild(btn);
+    document.getElementById("formdiv").appendChild(btn);
 
     return true
 }
